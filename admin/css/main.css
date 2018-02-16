@@ -2,19 +2,53 @@
 /* CSS Document */
 
 body {
-	background-color: grey;
+	background-color: black;
+	color: white;
+}
+
+label{
+margin-left: 30%;
+font-family: 'Oswald', sans-serif;
+font-size: 26px;
+text-align: center;
 }
 
 .username {
-	margin-left: 35.7%;
+	margin-left: 1.7%;
 	margin-top: 10%;
+	border-radius: 10px;
 }
 .password {
-	margin-left: 36%;
-	margin-top: 3%;
+	margin-left: 2.4%;
+	margin-top: 2.5%;
+	border-radius: 10px;
 }
 .submit {
-	margin-left: 45.5%;
+	margin-left: 38%;
 	border-radius: 5px;
 	margin-bottom: 80px;
+	background-color: grey;
+	color: white;
+	font-family: 'Slabo 27px', serif;
+	font-size: 18px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 0px 0px 10px 3px #ffffff;
+}
+.loginSection
+{
+	background-color: grey;
+	width: 50%;
+	margin-left: 25%;
+	border-radius: 8px;
+	margin-top: 12%;
+	box-shadow: 0px 0px 10px 3px #ffffff;
+}
+.adminpage
+{
+font-family: 'Oswald', sans-serif;
+font-size: 25px;
+margin-left: 0%;
+margin-top: 10%;
+text-align: center;
 }

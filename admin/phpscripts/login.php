@@ -12,13 +12,15 @@ function logIn($username, $password, $ip) {
     $id = $founduser['user_id'];
     $_SESSION['user_id'] = $id;
     $_SESSION['user_name'] = $founduser['user_name'];
+    $_SESSION['last_login'] = $founduser['last_login'];
     if(mysqli_query($link, $loginstring)){
       $update = "UPDATE tbl_user SET user_ip = '{$ip}' WHERE user_id={$id}";
+      $update = "UPDATE tbl_user SET last_login = NOW() WHERE user_id={$id}";
       $updatequery = mysqli_query($link, $update);
     }
     redirect_to("admin_index.php");
   }else{
-$message = "learn how to type, dumbass";
+$message = "Incorrect, please try again";
 return $message;
   }
 
