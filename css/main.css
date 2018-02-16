@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: grey;
+}
+
+.username {
+	margin-left: 50%;
+}
+.password {
+	margin-left: 50%;
+}
+.submit {
+	margin-left: 50%;
+	border-radius: 5px;
+	margin-bottom: 80px;
+}
