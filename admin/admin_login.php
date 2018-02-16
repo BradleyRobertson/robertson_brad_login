@@ -18,19 +18,19 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link href="../css/main.css">
+<link href="../admin/css/main.css" rel="stylesheet">
 <title>Welcome to your admin panel login</title>
 </head>
 <body>
 	<?php if(!empty($message)){ echo $message;} ?>
 	<form action="admin_login.php" method="post">
 		<label>Username</label>
-		<input type="text" name="username" value="">
+		<input type="text" name="username" value=""class="username">
 		<br>
 		<label>Password</label>
-		<input type="password" name="password" value="">
+		<input type="password" name="password" value="" class="password">
 		<br><br>
-		<input type="submit" name="submit" value="Submit">
+		<input type="submit" name="submit" value="Submit" class="submit">
 	</form>
 
 </body>

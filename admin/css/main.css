@@ -6,13 +6,15 @@ body {
 }
 
 .username {
-	margin-left: 50%;
+	margin-left: 35.7%;
+	margin-top: 10%;
 }
 .password {
-	margin-left: 50%;
+	margin-left: 36%;
+	margin-top: 3%;
 }
 .submit {
-	margin-left: 50%;
+	margin-left: 45.5%;
 	border-radius: 5px;
 	margin-bottom: 80px;
 }
